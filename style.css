@@ -65,6 +65,7 @@ body{
 
 }
 
+
 .hero-image img{
   width: 300px;
   height: 300px;
@@ -93,4 +94,39 @@ section h2{
   text-align: center;
   line-height: 1.8;
   color: #ffffff;
+}
+
+/* Gallery */
+.gallery h2{
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.gallery-container{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery-container img{
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* Contact */
+.contact h2{
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.contact{
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Footer */
+footer{
+  background: #D3DAD9;
+  text-align: center;
+  padding: 20px;
 }
